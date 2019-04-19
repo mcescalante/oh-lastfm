@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+pylast = "*"
+django = "*"
+dj-database-url = "*"
+env-tools = "*"
+celery = "*"
+arrow = "*"
+redis = "*"
+kombu = "*"
+pyyaml = "==4.2b4"
+open-humans-api = "*"
+
+[requires]
+python_version = "3.6"
